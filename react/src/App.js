@@ -35,6 +35,7 @@ const App = () => {
         </div>
     ) : (
       <div className="unAuth">
+        
         <img src={logo} alt="logo" height="200px"/>
         <ConnectButton />
       </div>
